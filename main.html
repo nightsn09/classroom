@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>scratch</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>scratch<br>Class</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">page01</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">page02</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">page03</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">page04</a> 
+    <a href="#packages02" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">page05</a> 
+    <a href="#designers02" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">page06</a> 
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>scratch class</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>การเขียนโปรแกรมตรวจสอบคะแนน
+        </b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>scratch.</b></h1>
+    <iframe src="s1.pdf" width="800" height="500"></iframe>
+    <hr style="width:50px;border:5px solid rgb(33, 183, 248)" class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+        <li><a href="https://docs.google.com/presentation/d/1DH7PVJw3EtGUL5VDo59lOpVOIJ2zyFdV/edit?usp=share_link&ouid=106462913997825477017&rtpof=true&sd=true">เอกสารประกอบการสอน</a></li>
+     <li><a href="https://app.diagrams.net/?src=about">diagrams</a></li>
+     <li><a href="https://www.liveworksheets.com/jd2677830pn">Worksheet</a></li>
+     <li><a href="https://padlet.com/nightsn09/work01-scrath-r6bqqu1zo22ahj9a">padlet</a></li>
+     <li><a href="">padlet</a></li>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>ทบทวนสัญลักษณ์ผังงาน</b></h1>
+    <hr style="width:50px;border:5px solid rgb(33, 183, 248)" class="w3-round">
+    <div align="center" id="liveworksheet2677830" style="width:100%">
+        <span id="lwslink2677830"><font face="Arial" size="2"><a href="https://www.liveworksheets.com/worksheets/th/วิทยาการคำนวณ/ผังงาน/สัญลักษณ์ผังงาน_jd2677830pn">สัญลักษณ์ผังงาน</a>, an interactive worksheet by <a href="https://www.liveworksheets.com/user/noozah">noozah</a></font>
+        <br><a href="https://www.liveworksheets.com" style="text-decoration: none"><font face="Century Gothic" size="4">live<b>worksheets.com</b></font></a></span>
+        </div>
+        <script src="https://files.liveworksheets.com/embed/embed.js"></script>
+        <script language="javascript">
+        loadliveworksheet(2677830,'sjjbnkbv',1415,'www',5001191);
+        </script>
+    
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>สัญลักษณ์ผังงาน</b></h1>
+    <hr style="width:50px;border:5px solid rgb(33, 183, 248)red" class="w3-round">
+   <img src="flow.png">
+   <br>
+   <br>
+   <br>
+    <H1><b>การสร้างเงื่อนไข ในโปรแกรม scratch</b></H1>
+    <img src="flow2.png">
+    <br>
+  </div>
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>สถานการณ์
+    </b></h1>
+    <hr style="width:50px;border:5px solid rgb(33, 183, 248)" class="w3-round">
+    <p></p>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">สถานการณ์ : การตรวจคะแนนสอบ
+        
+       <p>ปูต้องการเขียนโปรแกรมตรวจสอบคะแนนสอบ
+        ที่มีคะแนนเต็ม 100 คะแนน 
+        โดยถ้าผู้ใช้ป้อนคะแนนสอบต่ำกว่า 50 
+        จะแสดงผลว่า "ไม่ผ่าน" 
+        แต่ถ้าผู้ใช้ป้อนคะแนนตั้งแต่ 50 คะแนนขึ้นไป
+        จะแสดงผลว่า "ผ่าน"
+        
+    </p>
+          <span class="w3-opacity"></span>
+        </li>
+      </ul>
+    </div>
+        
+    <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-light-grey w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">สถานการณ์ : การตรวจคะแนนสอบ
+          
+         <p>ถ้ากรอกคะแนนมากกว่า 100 คะแนน 
+            จะแสดงผลว่า "คุณกรอกคะแนนเกิน 100 คะแนน"
+               2. ถ้ากรอกคะแนนน้อยกว่า 0 คะแนน
+            จะแสดงผลว่า "คุณกรอกคะแนนผิดพลาด"
+            
+      </p>
+            <span class="w3-opacity"></span>
+          </li>
+        </ul>
+      </div>
+  </div>
+  
+
+
+  <div class="w3-container" id="packages02" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>เงื่อนไข
+
+    </b></h1>
+    <hr style="width:50px;border:5px solid rgb(33, 183, 248)" class="w3-round">
+    <p></p>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">เงื่อนไขที่ 1
+
+       <p>ถ้าผู้ใช้ป้อน
+        คะแนนสอบต่ำกว่า 50 
+        จะแสดงผลว่า "ไม่ผ่าน" 
+           
+    </p>
+          <span class="w3-opacity"></span>
+        </li>
+      </ul>
+    </div>
+        
+    <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-light-grey w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">เงื่อนไขที่ 2
+
+          
+         <p>ถ้าผู้ใช้ป้อนคะแนน
+            ตั้งแต่ 50 คะแนนขึ้นไป
+            จะแสดงผลว่า "ผ่าน
+            
+      </p>
+            <span class="w3-opacity"></span>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-container" id="designers02" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-red"><b>การเขียนผังงาน
+        </b></h1>
+        <hr style="width:50px;border:5px solid rgb(33, 183, 248)red" class="w3-round">
+       <img src="flow3.png">
+       <br>
+       <br>
+       <br>
+       <br>
+       <H1><b>ตัวอย่างในการใช้โปรแกรม scratch</b></H1>
+       <img src="flow4.png">
+       <br>
+  </div>
+  <!-- Contact -->
+ 
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
